@@ -17,7 +17,7 @@ for idx, N in enumerate(n_trials):
     #plt.setp(ax.get_yticklabels(), visible = False)
     heads = data[:N].sum() # get simulated data.
     y = dist.pdf(x, 1 + heads, 1+ N-heads) # what is this?
-    ax[idx].plot(x, y, label = "observe %d tosses, \n  %d heads" % (N, heads))
+    ax[idx].plot(x, y, label = "observe {:2d} tosses, \n  {:2d} heads".format(N, heads))
     ax[idx].fill_between(x, 0, y, color = "blue", alpha = 0.4)
     ax[idx].vlines(0.5, 0, 20, color = "k", linestyles="--", lw = 1)
 
