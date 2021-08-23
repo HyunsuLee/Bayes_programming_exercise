@@ -10,4 +10,4 @@ Based on the book, Bayesian methods for hackers.
 [GitHub of the author](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 
 
-Python 3.9, PyMC 3.11
+Python 3.9, PyMC 3.11가 사용되었습니다.
