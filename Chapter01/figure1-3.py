@@ -15,7 +15,7 @@ for idx, lam in enumerate(lambda_):
         label=r"$\lambda = {}$".format(lam), alpha = 0.6,
         edgecolor = colors[idx], lw="3")
 
-plt.xticks(a+ 0.4, a)
+plt.xticks(a)
 plt.legend()
 plt.ylabel(r"probability of $k$")
 plt.xlabel(r"$k$")
