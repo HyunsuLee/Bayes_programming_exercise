@@ -32,5 +32,10 @@ posterior = stan.build(schools_code, data=schools_data, random_seed=1)
 # Building, in this context, involves converting the Stan program code into C++ code
 # and then compiling that C++ code. This step may take some time.
 
-# fit = posterior.sample(num_chains=4, num_samples=1000)
+
+fit = posterior.sample(num_chains=1, num_samples=1000)
 # move to HP Z workstation
+eta = fit["eta"]
+print(eta)
+df = fit.to_frame()
+print(df)
