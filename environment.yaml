@@ -178,21 +178,21 @@ dependencies:
   - zlib=1.2.13=hd590300_5
   - zstd=1.5.5=hfc55251_0
   - pip:
-    - aiohttp==3.9.3
-    - aiosignal==1.3.1
-    - appdirs==1.4.4
-    - attrs==23.2.0
-    - clikit==0.6.2
-    - crashtest==0.3.1
-    - frozenlist==1.4.1
-    - httpstan==4.12.0
-    - idna==3.6
-    - marshmallow==3.21.1
-    - multidict==6.0.5
-    - pastel==0.2.1
-    - pylev==1.4.0
-    - pysimdjson==5.0.2
-    - pystan==3.9.0
-    - webargs==8.4.0
-    - yarl==1.9.4
-prefix: /home/hyunsu4gpu/.conda/envs/bayes
+      - aiohttp==3.9.3
+      - aiosignal==1.3.1
+      - appdirs==1.4.4
+      - attrs==23.2.0
+      - clikit==0.6.2
+      - crashtest==0.3.1
+      - frozenlist==1.4.1
+      - httpstan==4.12.0
+      - idna==3.6
+      - marshmallow==3.21.1
+      - multidict==6.0.5
+      - pastel==0.2.1
+      - pylev==1.4.0
+      - pysimdjson==5.0.2
+      - pystan==3.9.0
+      - webargs==8.4.0
+      - yarl==1.9.4
+prefix: /home/hyunsu/miniconda3/envs/bayes
